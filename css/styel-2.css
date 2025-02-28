@@ -1,922 +1,706 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    list-style: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 section.wrapper {
-    max-width: 1480px;
-    width: 90%;
-    margin: 0 auto;
+  max-width: 1480px;
+  width: 90%;
+  margin: 0 auto;
 }
 
-
-
-
-header{
-    background: #000;
-    color: #AFAFAF;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: auto 0;
+header {
+  background: #000;
+  color: #afafaf;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto 0;
 }
-header section.topbaar{
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
+header section.topbaar {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
 }
-header section.topbaar div.middile{
-    display: flex;
-    gap: 10px;
-    margin-left: 429px;
+header section.topbaar div.middile {
+  display: flex;
+  gap: 10px;
+  margin-left: 429px;
 }
-header section.topbaar div.middile p{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #FAFAFA;
+header section.topbaar div.middile p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #fafafa;
 }
-header section.topbaar div.middile a{
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 24px;
-    color: #FAFAFA;
+header section.topbaar div.middile a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fafafa;
 }
-header section.topbaar div.right{
-    display: flex;
-    gap: 8px;
+header section.topbaar div.right {
+  display: flex;
+  gap: 8px;
 }
-header section.topbaar div.right small{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #FAFAFA;
+header section.topbaar div.right small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #fafafa;
 }
-header section.topbaar div.right div.dwonarrow{
-    width: 7.78px;
-    height: 12.73px;
-    margin: auto 0;
-    cursor: pointer;
+header section.topbaar div.right div.dwonarrow {
+  width: 7.78px;
+  height: 12.73px;
+  margin: auto 0;
+  cursor: pointer;
 }
-header section.topbaar div.right div.dwonarrow img{
-    width: 100%;
-    display: block;
+header section.topbaar div.right div.dwonarrow img {
+  width: 100%;
+  display: block;
 }
 
-#hanbaar{
-    position: absolute;
-    right: 41px;
-    top: 55px;
-    z-index: 100;
-    display: none;
+#hanbaar {
+  position: absolute;
+  right: 41px;
+  top: 55px;
+  z-index: 100;
+  display: none;
 }
-#hanbaar div.hanbox{
-    width: 200px;
-    height: 300px;
-    background: #000000;
-    border: 1px solid #000;
-    border-radius: 12px;
-    padding: 10px;
-    padding-top: 22px;
-
+#hanbaar div.hanbox {
+  width: 200px;
+  height: 300px;
+  background: #000000;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 10px;
+  padding-top: 22px;
 }
-#hanbaar div.hanbox ul{
-    text-align: center;
+#hanbaar div.hanbox ul {
+  text-align: center;
 }
-#hanbaar div.hanbox ul li{
-    margin-bottom: 15px;
+#hanbaar div.hanbox ul li {
+  margin-bottom: 15px;
 }
-#hanbaar div.hanbox ul li.closse{
-    margin-left: 117px;
+#hanbaar div.hanbox ul li.closse {
+  margin-left: 117px;
 }
-#hanbaar div.hanbox ul li.closse img{
-    
+#hanbaar div.hanbox ul li.closse img {
 }
-#hanbaar div.hanbox ul li a{
-    color: #ffffff;
-    font-size: 16px;
-    font-weight:500;
-    line-height: 21px;
+#hanbaar div.hanbox ul li a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
 }
 
-
-
-
-
-
-#navebaar{
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 40px;
+#navebaar {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
-#navebaar section.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto 0;
+#navebaar section.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0;
 }
-#navebaar section.container div.left{
-
+#navebaar section.container div.left {
 }
-#navebaar section.container div.left h1{
-
+#navebaar section.container div.left h1 {
 }
-#navebaar section.container div.left h1 a{
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 3%;
-    color: #000000;
+#navebaar section.container div.left h1 a {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: #000000;
 }
-#navebaar section.container div.middle{
-
+#navebaar section.container div.middle {
 }
-#navebaar section.container div.middle ul{
-    display: flex;
-    gap: 48px;
-
+#navebaar section.container div.middle ul {
+  display: flex;
+  gap: 48px;
 }
-#navebaar section.container div.middle ul li{
-
+#navebaar section.container div.middle ul li {
 }
-#navebaar section.container div.middle ul li a{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #000000;
+#navebaar section.container div.middle ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
 }
-#navebaar section.container div.middle ul li div.underline{
-    width: 48px;
-    height: 1px;
-    border: 1px solid #0000;
-    background: #000;
-    display: none;
+#navebaar section.container div.middle ul li div.underline {
+  width: 48px;
+  height: 1px;
+  border: 1px solid #0000;
+  background: #000;
+  display: none;
 }
-#navebaar section.container div.right{
-    display: flex;
-    gap: 35px;
+#navebaar section.container div.right {
+  display: flex;
+  gap: 35px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#navebaar section.container div.right div.search-box{
-    width: 243px;
-    height: 38px;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #F5F5F5;
-    background: #f5f5f5;
-    border-radius: 4px;
-    padding: 10px;
-    position: relative;
+#navebaar section.container div.right div.search-box {
+  width: 243px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #f5f5f5;
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 10px;
+  position: relative;
 }
-#navebaar section.container div.right div.search-box input{
-    background: #f5f5f5;
-    border: none;
+#navebaar section.container div.right div.search-box input {
+  background: #f5f5f5;
+  border: none;
 }
-#navebaar section.container div.right div.search-box input[placeholder]{
-    border: none;
-    border-color: #f5f5f5;
-
+#navebaar section.container div.right div.search-box input[placeholder] {
+  border: none;
+  border-color: #f5f5f5;
 }
-#navebaar section.container div.right div.search-box div.search-icone{
-    
+#navebaar section.container div.right div.search-box div.search-icone {
 }
-#navebaar section.container div.right div.search-box div.search-icone img{
-    
+#navebaar section.container div.right div.search-box div.search-icone img {
 }
 
-
-
-#navebaar section.container div.right div.search-box div.searchboxclosse{
-
+#navebaar section.container div.right div.search-box div.searchboxclosse {
 }
-#navebaar section.container div.right div.search-box div.searchboxclosse img{
-    position: absolute;
-    top: 6px;
-    right: 6px;
-    display: none;
+#navebaar section.container div.right div.search-box div.searchboxclosse img {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#navebaar section.container div.right div.threeline{
-    width: 32px;
-    height: 32px;
-    display: none;
+#navebaar section.container div.right div.threeline {
+  width: 32px;
+  height: 32px;
+  display: none;
 }
-#navebaar section.container div.right div.threeline img{
-    width: 100%;
-    display: block;
+#navebaar section.container div.right div.threeline img {
+  width: 100%;
+  display: block;
 }
-#navebaar section.container div.right div.like-box{
-    width: 32px;
-    height: 32px;
+#navebaar section.container div.right div.like-box {
+  width: 32px;
+  height: 32px;
 }
-#navebaar section.container div.right div.like-box img{
-    width: 100%;
-    display: block;
+#navebaar section.container div.right div.like-box img {
+  width: 100%;
+  display: block;
 }
-#navebaar section.container div.right div.cart-box{
-    width: 32px;
-    height: 32px;
+#navebaar section.container div.right div.cart-box {
+  width: 32px;
+  height: 32px;
 }
-#navebaar section.container div.right div.cart-box img{
-    width: 100%;
-    display: block;
+#navebaar section.container div.right div.cart-box img {
+  width: 100%;
+  display: block;
 }
-#navebaar div.line{
-    width: 100%;
-    height: 1px;
-    border:1px solid #ebebeb;
-    margin-top: 10px;
+#navebaar div.line {
+  width: 100%;
+  height: 1px;
+  border: 1px solid #ebebeb;
+  margin-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#spordlight{
-    margin-bottom: 40px;
+#spordlight {
+  margin-bottom: 40px;
 }
-#spordlight section.top{
-    display: flex;
-    gap: 10px;
-    margin-bottom: 40px;
+#spordlight section.top {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
 }
-#spordlight section.top a{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #00000063
+#spordlight section.top a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #00000063;
 }
-#spordlight section.top span{
-    
+#spordlight section.top span {
 }
-#spordlight section.top small{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #000;
+#spordlight section.top small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000;
 }
 
-
-
-
-#spordlight div.bottomProdect{
-    /* display: grid;
+#spordlight div.bottomProdect {
+  /* display: grid;
     grid-template-columns: repeat(4, 350px); */
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 16px;
-   
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
 }
-#spordlight div.bottomProdect div.cardbox{
-    width: 270px;
-    height: 322px;
-    /* gap: 16px; */
-    margin-bottom: 55px;
+#spordlight div.bottomProdect div.cardbox {
+  width: 270px;
+  height: 322px;
+  /* gap: 16px; */
+  margin-bottom: 55px;
 }
-#spordlight div.bottomProdect div.cardbox div.top{
-    height: 250px;
-    border: 1px solid #F5F5F5;
-    background: #f5f5f5;
-    border-radius: 4px;
-    position: relative;
-    align-items: center;
-    margin-bottom: 15px;
+#spordlight div.bottomProdect div.cardbox div.top {
+  height: 250px;
+  border: 1px solid #f5f5f5;
+  background: #f5f5f5;
+  border-radius: 4px;
+  position: relative;
+  align-items: center;
+  margin-bottom: 15px;
 }
-#spordlight div.bottomProdect div.cardbox div.top div.prodectimage{
-    width: 157px;
-    height: 163px;
-    /* margin-top: 35px; */
-    margin-top: 52px;
-    margin-left: 40px;
-    background-color: #f5f5f5;
-    margin-bottom: 10px;
+#spordlight div.bottomProdect div.cardbox div.top div.prodectimage {
+  width: 157px;
+  height: 163px;
+  /* margin-top: 35px; */
+  margin-top: 52px;
+  margin-left: 40px;
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
 }
-#spordlight div.bottomProdect div.cardbox div.top div.oneimage{
-    width: 115px;
-    margin-left: 71px;
-    margin-top: 40px;
+#spordlight div.bottomProdect div.cardbox div.top div.oneimage {
+  width: 115px;
+  margin-left: 71px;
+  margin-top: 40px;
 }
-#spordlight div.bottomProdect div.cardbox div.top div.prodectimage img{
-    width: 100%;
-    display: block;
+#spordlight div.bottomProdect div.cardbox div.top div.prodectimage img {
+  width: 100%;
+  display: block;
 }
-#spordlight div.bottomProdect div.cardbox div.top div.like{
-    width: 27px;
-    height: 26px;
-    position: absolute;
-    top: 12px;
-    right: 19px;
+#spordlight div.bottomProdect div.cardbox div.top div.like {
+  width: 27px;
+  height: 26px;
+  position: absolute;
+  top: 12px;
+  right: 19px;
 }
-#spordlight div.bottomProdect div.cardbox div.top div.like img{
-    width: 100%;
-    display: block;
+#spordlight div.bottomProdect div.cardbox div.top div.like img {
+  width: 100%;
+  display: block;
 }
-#spordlight div.bottomProdect div.cardbox div.top div.view{
-    width: 27px;
-    height: 27px;
-    position: absolute;
-    top: 40px;
-    right: 17px;
+#spordlight div.bottomProdect div.cardbox div.top div.view {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 40px;
+  right: 17px;
 }
-#spordlight div.items div.cardbox div.top div.view img{
-    width: 100%;
-    display: block;
+#spordlight div.items div.cardbox div.top div.view img {
+  width: 100%;
+  display: block;
 }
-#spordlight div.bottomProdect div.cardbox div.top span.new-tags{
-    width: 51px;
-    height: 26px;
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    border: 1px solid #00FF66;
-    border-radius: 4px;
-    background: #00FF66;
-    padding: 4px 12px;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    color: #fff;
+#spordlight div.bottomProdect div.cardbox div.top span.new-tags {
+  width: 51px;
+  height: 26px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border: 1px solid #00ff66;
+  border-radius: 4px;
+  background: #00ff66;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #fff;
 }
-#spordlight div.bottomProdect div.cardbox div.top span.offer{
-    width: 51px;
-    height: 26px;
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    border: 1px solid #DB4444;
-    border-radius: 4px;
-    background: #DB4444;
-    padding: 4px 12px;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    color: #fff;
+#spordlight div.bottomProdect div.cardbox div.top span.offer {
+  width: 51px;
+  height: 26px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border: 1px solid #db4444;
+  border-radius: 4px;
+  background: #db4444;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #fff;
 }
-#spordlight div.bottomProdect div.cardbox div.top button.shope{
-    width: 270px;
-    height: 41px;
-    border: 1px solid #000;
-    background: #000;
-    color: #fff;
-    border-radius: 0 0 4px 4px;
-    display: none;
-}
-
-
-
-#spordlight div.bottomProdect div.cardbox div.bottom{
-    
-}
-#spordlight div.bottomProdect div.cardbox div.bottom p{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #000000;
-    margin-bottom: 8px;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.ammound{
-    display: flex;
-    gap: 10px;
-    margin-bottom: 15px;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.ammound small{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #DB4444;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.ammound span{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #000000;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.rething{
-    display: flex;
-    gap: 8px;
-    margin-bottom: 8px;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.rething span{ 
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #DB4444;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.rething small.outAmound{
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 21px;
-    color: #00000070;
-    text-decoration: line-through;
-    
-
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.rething div.stars{ 
-    display: flex;
-    gap: 5px;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.rething div.stars div.starimage{ 
-    width: 20px;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.rething div.stars div.starimage img{ 
-    width: 100%;
-    display: block;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.round{
-    display: flex;
-    gap: 8px;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.round div.fullred{
-    width: 20px;
-    height: 20px;
-    border: 1px solid #000000;
-    border-radius: 50%;
-    padding: 2px;
-    background: #DB4444;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.round div.border{
-    border: 2px solid #000000;
-    border-radius: 50%;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.round div.border div.white{
-    border: 2px solid #fff;
-    border-radius: 50%;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.round div.border div.white  div.red{
-    width: 16px;
-    height: 16px;
-    top: 4px;
-    left: 4px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    background: #DB4444;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.round div.border div.white  div.yellow{
-    width: 16px;
-    height: 16px;
-    top: 4px;
-    left: 4px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    background: #EEFF61;
-}
-#spordlight div.bottomProdect div.cardbox div.bottom div.round div.border div.white div.black{
-    width: 16px;
-    height: 16px;
-    top: 4px;
-    left: 4px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    background: #184A48;
-}
-#spordlight div.line{
-    width: 100%;
-    border: 1px solid #e6e6e6;
-}
-#spordlight button.new-products{
-    width: 234px;
-    height: 56px;
-    border: 1px solid #DB4444;
-    border-radius: 4px;
-    background: #db4444;
-    /* text-align: center; */
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #FAFAFA;
-    cursor: pointer;
-    margin-left: 564px;
-    /* margin: 0 auto; */
-    margin-top: 18px;
+#spordlight div.bottomProdect div.cardbox div.top button.shope {
+  width: 270px;
+  height: 41px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  border-radius: 0 0 4px 4px;
+  display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-    background: #000;
-    color:#FAFAFA;
-    padding-top: 80px;
-    padding-bottom: 20px;
+#spordlight div.bottomProdect div.cardbox div.bottom {
 }
-footer div.items{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
+#spordlight div.bottomProdect div.cardbox div.bottom p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 8px;
 }
-footer div.items div.contenar{
-    
+#spordlight div.bottomProdect div.cardbox div.bottom div.ammound {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
 }
-footer div.items div.contenar ul{
-    
+#spordlight div.bottomProdect div.cardbox div.bottom div.ammound small {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #db4444;
 }
-footer div.items div.contenar ul li{
-    margin-bottom: 8px;
+#spordlight div.bottomProdect div.cardbox div.bottom div.ammound span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
 }
-footer div.items div.contenar ul li.cut{
-    width: 179px;
+#spordlight div.bottomProdect div.cardbox div.bottom div.rething {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
 }
-footer div.items div.contenar ul li h4{
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 3%;
+#spordlight div.bottomProdect div.cardbox div.bottom div.rething span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #db4444;
 }
-footer div.items div.contenar ul li h5{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
+#spordlight
+  div.bottomProdect
+  div.cardbox
+  div.bottom
+  div.rething
+  small.outAmound {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #00000070;
+  text-decoration: line-through;
 }
-footer div.items div.contenar ul li a{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #FAFAFA;
+#spordlight div.bottomProdect div.cardbox div.bottom div.rething div.stars {
+  display: flex;
+  gap: 5px;
+}
+#spordlight
+  div.bottomProdect
+  div.cardbox
+  div.bottom
+  div.rething
+  div.stars
+  div.starimage {
+  width: 20px;
+}
+#spordlight
+  div.bottomProdect
+  div.cardbox
+  div.bottom
+  div.rething
+  div.stars
+  div.starimage
+  img {
+  width: 100%;
+  display: block;
+}
+#spordlight div.bottomProdect div.cardbox div.bottom div.round {
+  display: flex;
+  gap: 8px;
+}
+#spordlight div.bottomProdect div.cardbox div.bottom div.round div.fullred {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  padding: 2px;
+  background: #db4444;
+}
+#spordlight div.bottomProdect div.cardbox div.bottom div.round div.border {
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
+#spordlight
+  div.bottomProdect
+  div.cardbox
+  div.bottom
+  div.round
+  div.border
+  div.white {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+#spordlight
+  div.bottomProdect
+  div.cardbox
+  div.bottom
+  div.round
+  div.border
+  div.white
+  div.red {
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  left: 4px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: #db4444;
+}
+#spordlight
+  div.bottomProdect
+  div.cardbox
+  div.bottom
+  div.round
+  div.border
+  div.white
+  div.yellow {
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  left: 4px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: #eeff61;
+}
+#spordlight
+  div.bottomProdect
+  div.cardbox
+  div.bottom
+  div.round
+  div.border
+  div.white
+  div.black {
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  left: 4px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: #184a48;
+}
+#spordlight div.line {
+  width: 100%;
+  border: 1px solid #e6e6e6;
+}
+#spordlight button.new-products {
+  width: 234px;
+  height: 56px;
+  border: 1px solid #db4444;
+  border-radius: 4px;
+  background: #db4444;
+  /* text-align: center; */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fafafa;
+  cursor: pointer;
+  margin-left: 564px;
+  /* margin: 0 auto; */
+  margin-top: 18px;
+}
+
+footer {
+  background: #000;
+  color: #fafafa;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+footer div.items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+footer div.items div.contenar {
+}
+footer div.items div.contenar ul {
+}
+footer div.items div.contenar ul li {
+  margin-bottom: 8px;
+}
+footer div.items div.contenar ul li.cut {
+  width: 179px;
+}
+footer div.items div.contenar ul li h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+footer div.items div.contenar ul li h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+footer div.items div.contenar ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fafafa;
 }
 /* footer div.items div.contenar ul li a.cut{
     width: 100px;
 } */
-footer div.items div.contenar ul li p{
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
+footer div.items div.contenar ul li p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
 }
-footer div.items div.contenar div.emailbox{
-    width: 217px;
-    height: 48px;
-    display: flex;
-    /* gap: 32px; */
-    border: 1px solid #FAFAFA;
-    border-radius: 4px;
-    background: #000;
-    padding-left: 3px;
+footer div.items div.contenar div.emailbox {
+  width: 217px;
+  height: 48px;
+  display: flex;
+  /* gap: 32px; */
+  border: 1px solid #fafafa;
+  border-radius: 4px;
+  background: #000;
+  padding-left: 3px;
 }
-footer div.items div.contenar div.emailbox input{
+footer div.items div.contenar div.emailbox input {
+  border: none;
+  background: #000;
+  color: #fafafa;
+  /* width: 147px; */
+}
+footer div.items div.contenar div.emailbox div.sedimage {
+  margin-top: 10px;
+}
+footer div.items div.contenar div.emailbox div.sedimage img {
+}
+
+footer div.items div.contenar div.downlode {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+footer div.items div.contenar div.downlode div.left {
+  width: 80px;
+  height: 80px;
+}
+footer div.items div.contenar div.downlode div.left img {
+  width: 100%;
+  display: block;
+}
+footer div.items div.contenar div.downlode div.right {
+}
+footer div.items div.contenar div.downlode div.right div.app-store {
+  width: 110px;
+  height: 40px;
+}
+footer div.items div.contenar div.downlode div.right div.appstore img {
+  width: 100%;
+  display: block;
+}
+
+footer div.items div.contenar div.app-logo {
+  display: flex;
+  gap: 24px;
+}
+footer div.items div.contenar div.app-logo div.app-image {
+  width: 24px;
+  height: 24px;
+}
+footer div.items div.contenar div.app-logo div.facebook img {
+  width: 100%;
+  display: block;
+}
+
+footer div.bottom {
+  margin: auto 0;
+  text-align: center;
+}
+footer div.bottom p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff42;
+}
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1252px) {
+  header section.topbaar div.middile {
+    margin-left: 279px;
+  }
+  #spordlight section.bottom {
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1080px) {
+  header section.topbaar div.middile {
+    margin-left: 184px;
+  }
+  #navebaar section.container div.middle ul {
+    display: none;
+  }
+  #navebaar section.container div.right div.like-box {
+    display: none;
+  }
+  #navebaar section.container div.right div.cart-box img {
+    display: none;
+  }
+
+  #navebaar section.container div.right div.search-box {
+    /* display: none; */
+    width: 34px;
+    background: #fff;
     border: none;
-    background: #000;
-    color: #FAFAFA;
-    /* width: 147px; */
-}
-footer div.items div.contenar div.emailbox div.sedimage{
-    margin-top: 10px;
-}
-footer div.items div.contenar div.emailbox div.sedimage img{
-    
-}
+  }
+  #navebaar section.container div.right div.search-box input[placeholder] {
+    display: none;
+  }
 
-footer div.items div.contenar div.downlode{
-    display: flex;
-    gap: 8px;
-    margin-bottom: 25px;
-}
-footer div.items div.contenar div.downlode div.left{
-    width: 80px;
-    height: 80px;
-}
-footer div.items div.contenar div.downlode div.left img{
-    width: 100%;
+  #navebaar section.container div.right div.threeline {
     display: block;
-}
-footer div.items div.contenar div.downlode div.right{
-    
-}
-footer div.items div.contenar div.downlode div.right div.app-store{
-    width: 110px;
-    height: 40px;
-}
-footer div.items div.contenar div.downlode div.right div.appstore img{
-    width: 100%;
-    display: block;
+  }
 }
 
-footer div.items div.contenar div.app-logo{
-    display: flex;
-    gap: 24px;
-}
-footer div.items div.contenar div.app-logo div.app-image{
-    width: 24px;
-    height: 24px;
-}
-footer div.items div.contenar div.app-logo div.facebook img{
-    width: 100%;
-    display: block;
-}
-
-footer div.bottom{
-    margin: auto 0;
-    text-align: center;
-
-}
-footer div.bottom p{
-    font-size: 16px;
+@media (max-width: 980px) {
+  header section.topbaar div.middile {
+    margin-left: 0;
+  }
+  footer div.items {
+    flex-wrap: wrap;
+  }
+  header section.topbaar div.middile p {
+    font-size: 10px;
+    font-weight: 300;
+  }
+  header section.topbaar div.middile a {
+    font-size: 10px;
     font-weight: 400;
-    line-height: 24px;
-    color: #ffffff42;
+  }
 }
 
-
-
-
-
-
-
-
-
-
-@media (max-width:1440px){
-
+@media (max-width: 768px) {
 }
-
-
-
-
-@media (max-width:1252px){
-    header section.topbaar div.middile{
-        margin-left: 279px;
-    }
-    #spordlight section.bottom{
-        justify-content: center;
-        gap: 50px;
-    }
+@media (max-width: 640px) {
+  #navebaar section.container div.right div.threeline {
+    margin-right: -50px;
+  }
+  footer div.items div.contenar {
+    margin-bottom: 20px;
+  }
 }
-
-
-
-
-
-
-@media (max-width:1080px){
-    header section.topbaar div.middile{
-        margin-left: 184px;
-    }
-    #navebaar section.container div.middle ul{
-        display: none;
-    }
-    #navebaar section.container div.right div.like-box{
-        display: none;
-    }
-    #navebaar section.container div.right div.cart-box img{
-        display: none;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    #navebaar section.container div.right div.search-box{
-        /* display: none; */
-        width: 34px;
-        background: #fff;
-        border: none;
-
-    }
-    #navebaar section.container div.right div.search-box input[placeholder]{
-        display: none;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    #navebaar section.container div.right div.threeline{
-        display: block;
-    }
+@media (max-width: 540px) {
+  header section.topbaar div.middile a {
+    display: none;
+  }
+  header section.topbaar div.middile p {
+    font-size: 8px;
+    font-weight: 500;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:980px){
-    header section.topbaar div.middile{
-        margin-left: 0;
-    }
-    footer div.items{
-        flex-wrap: wrap;
-    }
-    header section.topbaar div.middile p{
-        font-size: 10px;
-        font-weight: 300;
-    }
-    header section.topbaar div.middile a{
-        font-size: 10px;
-        font-weight: 400;
-    }
+@media (max-width: 480px) {
+  footer div.items div.contenar ul {
+    margin-right: 20px;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:768px){
-    
-}
-@media (max-width:640px){
-    #navebaar section.container div.right div.threeline{
-        margin-right: -50px;
-    }
-    footer div.items div.contenar{
-        margin-bottom: 20px;
-    }
-}
-@media (max-width:540px){
-    header section.topbaar div.middile a{
-        display: none;
-    }
-    header section.topbaar div.middile p{
-        font-size: 8px;
-        font-weight: 500;
-    }
-
-}
-@media (max-width:480px){
-    footer div.items div.contenar ul{
-        margin-right: 20px;
-    }
-}
-@media (max-width:360px){
-    
+@media (max-width: 360px) {
 }

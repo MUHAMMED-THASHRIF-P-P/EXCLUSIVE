@@ -39,19 +39,6 @@ searchboxclosse.addEventListener("click", ()=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Browse by category
 
 const products =[
